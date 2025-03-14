@@ -22,7 +22,7 @@ let clickCount = 0; // Biến đếm số lần nhấn nút
                 if (clickCount >= 3) {
                     randomNumber = 7; // Kết quả cố định
                 } else {
-                    randomNumber = Math.floor(Math.random() * 99) + 1; // Số ngẫu nhiên từ 1 đến 99
+                    randomNumber = Math.floor(Math.random() * 30) + 1; // Số ngẫu nhiên từ 1 đến 99
                 }
 
                 const totalIterations = 30; // Số lần nhảy
